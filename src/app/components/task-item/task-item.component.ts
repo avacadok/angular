@@ -11,6 +11,7 @@ export class TaskItemComponent implements OnInit {
   @Input() task: Task;
   //use the task interface to set new eventemitter
   @Output() onDeleteTask: EventEmitter<Task> = new EventEmitter();
+  @Output() onReminderTask: EventEmitter<Task> = new EventEmitter();
 
   faTimes = faTimes;
   constructor() { }
@@ -20,6 +21,10 @@ export class TaskItemComponent implements OnInit {
 
   onDelete(task: Task) {
     this.onDeleteTask.emit(task);
+  }
+
+  onReminder(task: Task) {
+    this.onReminderTask.emit(task);
   }
 
 }

@@ -25,4 +25,9 @@ export class TasksComponent implements OnInit {
       () => (this.tasks = this.tasks.filter(appt => appt.id !== task.id)))
   }
 
+  reminderTask(task: Task) {
+    task.reminder = !task.reminder;
+    console.log("asdasd ");
+  }
+
 }
