@@ -27,7 +27,9 @@ export class TasksComponent implements OnInit {
 
   reminderTask(task: Task) {
     task.reminder = !task.reminder;
-    console.log("asdasd ");
+    this.taskService
+    .reminderTask(task)
+    .subscribe()
   }
 
 }

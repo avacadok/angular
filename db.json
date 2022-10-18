@@ -10,7 +10,7 @@
       "id": 2,
       "text": "Meeting at School",
       "day": "May 6th at 1: 30pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 3,
@@ -22,13 +22,13 @@
       "id": 4,
       "text": "Movie Night",
       "day": "August 10th at 7: 30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 5,
       "text": "Date Night",
       "day": "Oct 10th at 6: 00pm",
-      "reminder": false
+      "reminder": true
     }
   ]
 }
