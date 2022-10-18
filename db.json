@@ -23,6 +23,12 @@
       "text": "Movie Night",
       "day": "August 10th at 7: 30pm",
       "reminder": false
+    },
+    {
+      "id": 5,
+      "text": "Date Night",
+      "day": "Oct 10th at 6: 00pm",
+      "reminder": false
     }
   ]
 }
