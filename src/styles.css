@@ -21,9 +21,10 @@ body {
   padding: 30px;
   border-radius: 5px;
 }
+
 .btn {
   display: inline-block;
-  background: #000;
+  background: steelblue;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -34,9 +35,11 @@ body {
   font-size: 15px;
   font-family: inherit;
 }
+
 .btn:focus {
   outline: none;
 }
+
 .btn:active {
   transform: scale(0.98);
 }
@@ -44,17 +47,18 @@ body {
 .btn-block {
   display: block;
   width: 100%;
+  margin-top: 10px;
 }
 
-.form-control {
-  margin: 20px 0;
+.add-task-form {
+  margin: 21px 0;
 }
 
-.form-control label {
+.add-task-form label {
   display: block;
 }
 
-.form-control input {
+.add-task-form input {
   width: 100%;
   height: 40px;
   margin: 5px;
@@ -62,18 +66,17 @@ body {
   font-size: 17px;
 }
 
-.form-control-check {
+.add-task-form-check {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
-.form-control-check label {
+.add-task-form-check label {
   flex: 1;
 }
 
-.form-control-check input {
+.add-task-form-check input {
   flex: 2;
   height: 20px;
 }
-
